@@ -5,10 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../public/css/syle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <title>Belajar Grid & Responsive</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
-    <h1>Belajar Grid, Flex & Responsive</h1>
-    
+    <h1 class=" max-w-lg border shadow-lg flex justify-center mx-auto my-10 text-lg font-bold font-roboto">Belajar Grid, Flex & Responsive</h1>
+
+    <div class="font-roboto grid grid-cols-2 gap-2 p-2 md:grid-cols-4">
+        <h2 class="font-bold text-xl text-slate-700 md:col-start-4 md:row-start-2 md:flex"><span class="self-center">Grid Awesome</span></h2>
+        <div class="font-semibold text-lg text-slate-700 md:col-start-2 md:row-start-2 md:flex"><span class="self-end">@sigitaji__</span></div>
+
+        <div class="aspect-[4/3] md:aspect-[4/4] xl:aspect-[4/3] bg-green-400 rounded-lg">
+            <div class="w-full h-full bg-[url('.../img/grid/1.jpeg')] bg-cover bg-center"></div>
+        </div>
+        <div class="aspect-[4/3] md:aspect-[4/4] md:col-start-3 xl:aspect-[4/3] bg-green-400 rounded-lg "></div>
+        <div class="aspect-[4/3] md:aspect-[4/4] xl:aspect-[4/3] bg-green-400 rounded-lg "></div>
+        <div class="aspect-[4/3] md:aspect-[4/4] xl:aspect-[4/3] bg-green-400 rounded-lg "></div>
+        <div class="aspect-[4/3] md:aspect-[4/4] xl:aspect-[4/3] bg-green-400 rounded-lg "></div>
+        <div class="aspect-[4/3] md:aspect-[4/4] md:col-start-2 xl:aspect-[4/3] bg-green-400 rounded-lg "></div>
+        <div class="aspect-[4/3] md:aspect-[4/4] md:col-start-4 xl:aspect-[4/3] bg-green-400 rounded-lg "></div>
+        <div class="aspect-[4/3] md:aspect-[4/4] xl:aspect-[4/3] bg-green-400 rounded-lg "></div>
+        <div class="aspect-[4/3] md:aspect-[4/4] md:col-start-3 xl:aspect-[4/3] bg-green-400 rounded-lg "></div>
+        <div class="aspect-[4/3] md:aspect-[4/4] md:col-start-3 xl:aspect-[4/3] bg-green-400 rounded-lg "></div>
+    </div>
+
 </body>
 </html>
