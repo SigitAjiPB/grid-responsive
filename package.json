@@ -10,7 +10,7 @@
   "main": "tailwind.config.js",
   "devDependencies": {},
   "scripts": {
-    "dev": "tailwindcss -i ./src/css/input.css -o ./public/css/syle.css --watch",
+    "sigit": "tailwindcss -i ./src/css/input.css -o ./public/css/syle.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
